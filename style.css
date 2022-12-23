@@ -32,7 +32,7 @@
 	align-items: center;
 	gap: 10px;
 
-	padding-left: 20px;
+	padding-left: 40px;
 }
 input {
 	border: none;
@@ -85,26 +85,43 @@ input {
 	line-height: 24px;
 	color: #1d692c;
 }
+.appt {
+	width: 98%;
+	height: 38px;
+	margin-top: 50px;
+	background: white;
+	padding-top: 40px;
+	padding-left: 20px;
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 26px;
+	color: #25282B;
+}
 table {
 	height: 410px;
 	width: 100%;
 	border-radius: 8px;
-	margin-top: 50px;
+	margin-top: 2px;
 	border-collapse: collapse;
 	font-weight: 390;
 	font-size: 14px;
 	line-height: 20px;
+	
 }
 
 td:first-child {
-	padding-right: 40px;
+	padding-right: 100px;
+	padding-left: 20px;
+}
+td:last-child{
+	padding-right: 20px;
 }
 td {
 	height: 56px;
 	border-radius: 0px;
 	border-bottom: 2px black;
 	outline: none;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid rgb(238, 232, 232);
 	background: white;
 	font-style: normal;
 	font-weight: 390;
@@ -205,5 +222,4 @@ hr {
 .menu-items svg:hover path {
 	fill: #1d692c;
 	fill-opacity: 100;
-	
 }
