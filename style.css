@@ -22,6 +22,7 @@
 	margin-left: 15%;
 	width: 83%;
 	background: #f6f8fb;
+	padding-left: 10px;
 }
 .search-div {
 	border-radius: 25px;
@@ -95,7 +96,10 @@ input {
 	font-weight: 450;
 	font-size: 20px;
 	line-height: 26px;
-	color: #25282B;
+	color: #25282b;
+}
+.table-div {
+	width: 98%;
 }
 table {
 	height: 410px;
@@ -106,14 +110,13 @@ table {
 	font-weight: 390;
 	font-size: 14px;
 	line-height: 20px;
-	
 }
 
 td:first-child {
 	padding-right: 100px;
 	padding-left: 20px;
 }
-td:last-child{
+td:last-child {
 	padding-right: 20px;
 }
 td {
